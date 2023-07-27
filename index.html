@@ -71,15 +71,10 @@
               tabindex="0"
               class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
-              <li><a>Item 1</a></li>
-              <li>
-                <a>Parent</a>
-                <ul class="p-2">
-                  <li><a>Submenu 1</a></li>
-                  <li><a>Submenu 2</a></li>
-                </ul>
-              </li>
-              <li><a>Item 3</a></li>
+            <li><a>Home</a></li>
+            <li><a>About Us</a></li>
+            <li><a>Shop</a></li>
+            <li><a>All Fruits</a></li>
             </ul>
           </div>
           <ul class="hidden lg:flex gap-10 px-1">
@@ -110,7 +105,15 @@
         <div class="carousel w-full">
           <!-- slider 1 -->
           <div id="slide1" class="carousel-item relative w-full">
-            <img src="./images/banner1.png" class="w-full" />
+            <div class="w-full">
+              <img src="./images/banner1.png" class="w-full " />
+            </div>
+            <div class="lg:space-y-4 space-y-1 absolute lg:top-52 lg:left-[500px] text-center text-white top-5 left-10 md:left-52 md:top-14">
+              <h1 class="lg:text-6xl text-xl font-semibold md:text-2xl">Exotic tastes at your <br> doorstep</h1>
+              <p>We supply highly quality organic products</p>
+              <button class=" btn-sm lg:btn lg:w-32 lg:h-12 lg:rounded-lg bg-custom-red-color text-white border-none">Shop Now</button>
+            </div>
+
             <div
               class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
             >
