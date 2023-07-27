@@ -47,11 +47,11 @@
     <header class="container mx-auto px-4">
       <!-- navbar section start here -->
       <div
-        class="navbar lg:bg-custom-red-color lg:text-white rounded-full mt-5 px-8"
+        class="navbar flex-row-reverse lg:flex-row lg:bg-custom-red-color lg:text-white rounded-full mt-5 px-8"
       >
         <div class="navbar-start">
           <div class="dropdown">
-            <label tabindex="0" class="btn btn-ghost lg:hidden">
+            <label tabindex="0" class="btn btn-ghost lg:hidden ml-40 lg:ml-0">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-5 w-5"
@@ -75,6 +75,16 @@
             <li><a>About Us</a></li>
             <li><a>Shop</a></li>
             <li><a>All Fruits</a></li>
+            <div class="lg:hidden">
+              <input
+                type="text"
+                placeholder="Search"
+                class="rounded-full py-2 px-4"
+              />
+              <i
+                class="fa-solid fa-magnifying-glass relative top-[-28px] left-40 text-black"
+              ></i>
+            </div>
             </ul>
           </div>
           <ul class="hidden lg:flex gap-10 px-1">
